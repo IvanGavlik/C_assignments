@@ -14,7 +14,7 @@ int main(void) {
 	int i = 0, j = 0;
 	for(; i < 16; i++) {	
 		if(i <= 7) {
-			scanf("%f", &niz[i]);		
+			scanf("%f", niz[i]);		
 		} else {
 			niz[i] = niz[i-8] * 2;	
 		}
